@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* IE7 폴리필 inline-block */
+
+.sns-wrap>li        {display:inline;}
+.aside-right-wrap>li{display:inline;}
+.nav-left-wrap>li   {display:inline;}
+.nav-right-wrap>li  {display:inline;}
+
+
+
+#section3 .sec3-slide-container{position:relative;}
+.sec6-sns-wrap{display:inline-block;}
+
+.sec6-icon-wrap>div>span.sec6-icon1-wrap>i{display:inline;margin-right:10px;}
+.sec6-icon-wrap>div>span.sec6-icon2-wrap>i{display:inline;margin-right:10px;}

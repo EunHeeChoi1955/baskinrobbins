@@ -1,0 +1,222 @@
+s[0]=1; //첫번째가 실행 중임을 알리는 signal
+
+		function NextSlide(z){//우측에서 좌측으로 이동 슬라이드
+			
+			for(i=0; i<=n; i++){s[i]=0;}
+			s[z]=1; //현재 실행중인 슬라이드
+
+
+function NextSlideIfFn(){
+	if(s[0]==1){//현재 실행중인것이 첫번째 라면
+		NextSlide(n+1);// 다음은 실행중인 것 +1 이다.
+			}
+		}
+
+if(s[0]==1){  //현재 0이 실행중이면
+: s배열에서 첫번째 요소가 실행(1)중이라면 
+
+
+  s[0]=1;   //함수 초기 실행 시 첫번째 실행중임을 알린다.
+	 //로딩시에 들어오도록 설정한다. 
+
+현재 N이고 현재 실행하는 n 이 현재라면, 다음 실행중인것은 n+1 이다.
+
+: 다음 슬라이드(우에서 좌로 이동+[left]하는 슬라이드)   이미지 이동방향 : <-<-<-<-
+$('.slide').eq(0).stop().animate({left:(100*0)+'%'},0).animate({left:(100*-1)+'%'},1000); 
+//이미지가 left로 0만큼 이동하고 다음 이미지가 left -100만큼 이동
+
+$('.slide').eq(1).stop().animate({left:(100*1)+'%'},0).animate({left:(100*0)+'%'},1000); 
+//이미지가 left로 100만큼 이동하고 다음 이미지가 left 0만큼 이동
+
+$('.slide').eq(2).stop().animate({left:(100*2)+'%'},0).animate({left:(100*1)+'%'},1000); 
+//이미지가 left로 200만큼 이동하면 다음 이미지가 left 100만큼 이동
+
+$('.slide').eq(3).stop().animate({left:(100*3)+'%'},0).animate({left:(100*2)+'%'},1000); 
+//이미지가 left로 200만큼 이동하고 다음 이미지가 left left 100으로 이동
+
+$('.slide').eq(4).stop().animate({left:(100*4)+'%'},0).animate({left:(100*3)+'%'},1000);
+//이미지가 left로 200만큼 이동하고 다음 이미지가 left left 100으로 이동
+
+$('.slide').eq(5).stop().animate({left:(100*5)+'%'},0).animate({left:(100*4)+'%'},1000);
+//이미지가 left로 200만큼 이동하고 다음 이미지가 left  left 100으로 이동
+
+$('.slide').eq(6).stop().animate({left:(100*6)+'%'},0).animate({left:(100*5)+'%'},1000);
+//이미지가 left로 200만큼 이동하고 다음 이미지가 left  left 100으로 이동
+
+$('.slide').eq(7).stop().animate({left:(100*7)+'%'},0).animate({left:(100*6)+'%'},1000);
+//이미지가 left로 200만큼 이동하고 다음 이미지가 left  left 100으로 이동
+
+$('.slide').eq(8).stop().animate({left:(100*8)+'%'},0).animate({left:(100*7)+'%'},1000);
+//이미지가 left로 200만큼 이동하고 다음 이미지가 left  left 100으로 이동
+
+
+for(i=0; i<=n, i++){
+
+}
+
+j=-2 로 시작
+j++ // -1 0 1 2 3 4 5 ...
+
+제이쿼리 버블링이 발생
+그전에 내가 누를 것이 다 취소하고 마지막이 나온것만 실행하는 것을 말한다.
+
+: 다음 슬라이드(우측에서 좌측으로 이동하는 슬라이드)
+if(s[0]==1){//현재 실행중인것이 첫번째 라면
+   NextSlide(n+1);// 다음은 실행중인 것 +1 이다.
+}
+
+
+===================================================================
+
+: 이전 슬라이드(좌에서 우로 이동하는 슬라이드) 이미지 이동방향 : >->->->->->
+$('.slide').eq(0).stop().animate({left:(100* 0)+'%'},0).animate({left:(100* 1)+'%'},1000);
+$('.slide').eq(8).stop().animate({left:(100*-1)+'%'},0).animate({left:(100* 0)+'%'},1000);
+$('.slide').eq(7).stop().animate({left:(100*-2)+'%'},0).animate({left:(100*-1)+'%'},1000);
+$('.slide').eq(6).stop().animate({left:(100*-3)+'%'},0).animate({left:(100*-2)+'%'},1000);
+$('.slide').eq(5).stop().animate({left:(100*-4)+'%'},0).animate({left:(100*-3)+'%'},1000);
+$('.slide').eq(4).stop().animate({left:(100*-5)+'%'},0).animate({left:(100*-4)+'%'},1000);
+$('.slide').eq(3).stop().animate({left:(100*-6)+'%'},0).animate({left:(100*-5)+'%'},1000);
+$('.slide').eq(2).stop().animate({left:(100*-7)+'%'},0).animate({left:(100*-6)+'%'},1000);
+$('.slide').eq(1).stop().animate({left:(100*-8)+'%'},0).animate({left:(100*-7)+'%'},1000);
+
+: 이전 슬라이드(좌측에서 우측으로 이동하는 슬라이드)
+if(s[8]==1){//현재 실행중인것이 첫번째 라면
+   PrevSlide(n-1);// 다음은 실행중인 것 +1 이다. 뒤로 가면 -1로 해야한다.
+
+s[8]==1
+PrevSlide(8-1) //7
+
+s[7]==1
+PrevSlide(7-1) //6
+
+s[6]==1
+PrevSlide(6-1) //5
+
+s[5]==1
+PrevSlide(5-1) //4
+
+s[0]==1 //첫번째 이면
+PrevSlide(n) //현재로(처음으로)
+
+
+}
+
+인라인은 span으로 감싼다.
+javascript:void(0) -> 버튼역할을 하겠다.
+<a href='javascript:void(0);' class='navbtn blind'>Navi Button</a> // 버튼 처리, 웹 접근성
+
+//좌우 
+슬라이드 z-index:1
+좌우 버튼넣기
+		/* margin-top:calc(109px/2); margin-top:-54.5px;  */
+.NextBtn-wrap{z-index:2; position:absolute; top:50%; right:20px; width:109px; height:109px; margin-top:-54.5px;}
+
+
+10px
+간격 10px
+
+한개당 30, 9개 270px
+margin-left:135px ??!
+
+외곽을 영역(a)이 있으면 안에서(b) 100퍼센트 하면, 외곽영역에 꽉 차게 생긴다.
+navBtn-wrap>li - 외곽영역을 정한다. - a
+navBtn-wrap>li>a - 100%로 크게 만든다. -b
+
+
+/* 원래는 ul만 썼음 .slide-container>ul.slide-wrap{z-index:1; position:relative; width:100%; height:679px; } */
+			.slide-container>ul.slide-wrap{z-index:1; position:relative; width:100%; height:679px; }
+밑에 버튼이 동그라미가 나오지 않고, 길게 나와사 ul이 아니라. ul.slide-wrap을 함
+
+
+
+/* 네비게이션 버튼 */
+.navBtn-wrap {z-index:2; position:absolute; bottom:30px;  left:50%; width:270px; margin-left:-135px; height:10px;}
+margin-left:-135px;
+: 반 간거 왼쪽으로 반 만큼 이동한다. 
+
+
+
+//실행중인 슬라이드 번호를 먼저 알아야 한다.
+//글자를 슬라이스 하는 방법과 인덱스를 뽑아서 하는 방법이 있다.
+
+$('.navBtn').each(function(index){ //.navBtn를 모두 도는데(each)
+			$(this).on({ // 선택한 그  this 를 
+				click:function(){ //클릭하면
+					//현재실행중인 슬라이드이면
+					for(i=0; i<=8, i++){
+						if(s[i]==1){  //1이면 실행중인것이다. 1이 곧 실행중인 현재 실행중인 슬라이드를 의미한다.
+							
+						}
+					}
+				}
+			})
+			
+		});
+
+[중요- 반응형 만들때, 컨테이너의 height:auto;로 할시에 position:absolute로 만든 컨텐츠 높이가 사라질 경우]
+슬라이드 absolute 슬라이드 컨테이너 relative 높이 height:auto;하면 높이 사라짐
+예전에는 png 이미지를 넣어서 높이를 조정했으나
+슬라이드로 사용하는 이미지 중 하나에(예를 들어 0,  첫번째 이미지) position:relative; 하면 
+
+.slide-container>ul.slide-wrap>li:nth-child(1){left:   0%; background:#a8d7e8; position:relative;}
+
+즉, 9개 슬라이드 중에서 하나라도 블럭을 잡으면 된다.
+나머지는 다 absolute라서 괜찮다.
+png로 해결할 수 있는데, absolute 여러개 중에서 하나라도 relative 하면 된다.
+
+
+
+*{float:left; height:14px}
+플로트를 쓸때는 반드시 높이를 잡아주세요
+로고는 이미 높이가 잡혀있다.
+로고는 문제가 없다.sns에는 문제 없다.
+sns-wrap 에
+float:keft; height:35px;
+float는 너비가 잘 잡힌다. 
+
+aside-wrap에 
+floatright, 기준은 글자크기 height:11px(왼쪽 고객센터)
+.aside-right-wrap 부분에  height:11px
+float 쓸때는 height를 주세요!!
+
+46-13 /2=16.5px
+height:13px 글자크기가 13px,
+ 
+오른쪽은 글자크기 14, 
+46-14/2 =16px
+height:14px 
+padding:16px
+
+
+
+ie7 버전이 깨진다
+: 이유: inline- block을 지원하지 않는다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
